@@ -1,0 +1,95 @@
+{
+ "columns": [
+  {
+   "name": "product_id",
+   "description": "Stable openFDA product identifier (product NDC plus SPL id)."
+  },
+  {
+   "name": "product_ndc",
+   "description": "Product NDC (labeler-product code)."
+  },
+  {
+   "name": "brand_name",
+   "description": "Brand (proprietary) name, null if none."
+  },
+  {
+   "name": "generic_name",
+   "description": "Generic (non-proprietary) name."
+  },
+  {
+   "name": "labeler_name",
+   "description": "Company that labels the product."
+  },
+  {
+   "name": "product_type",
+   "description": "Product type (human prescription, OTC, vaccine, bulk ingredient...)."
+  },
+  {
+   "name": "dosage_form",
+   "description": "Dosage form."
+  },
+  {
+   "name": "route",
+   "description": "Administration routes, '; '-joined."
+  },
+  {
+   "name": "marketing_category",
+   "description": "Marketing category (NDA, ANDA, BLA, unapproved...)."
+  },
+  {
+   "name": "application_number",
+   "description": "FDA application number, null if none."
+  },
+  {
+   "name": "finished",
+   "type": "boolean",
+   "description": "True for a finished drug product, false for bulk or further-processing material."
+  },
+  {
+   "name": "marketing_start_date",
+   "description": "Marketing start date, YYYY-MM-DD."
+  },
+  {
+   "name": "marketing_end_date",
+   "description": "Marketing end date, YYYY-MM-DD, null if still marketed."
+  },
+  {
+   "name": "listing_expiration_date",
+   "description": "NDC listing expiration date, YYYY-MM-DD."
+  },
+  {
+   "name": "dea_schedule",
+   "description": "DEA controlled-substance schedule, null if not scheduled."
+  },
+  {
+   "name": "active_ingredients",
+   "description": "Active ingredients with strength, '; '-joined."
+  },
+  {
+   "name": "active_ingredient_count",
+   "type": "number",
+   "description": "Number of active ingredients."
+  },
+  {
+   "name": "pharm_class",
+   "description": "Pharmacologic classes (MoA, EPC...), '; '-joined."
+  },
+  {
+   "name": "package_count",
+   "type": "number",
+   "description": "Number of packages listed for the product."
+  },
+  {
+   "name": "package_descriptions",
+   "description": "First five package descriptions, ' | '-joined."
+  },
+  {
+   "name": "unii",
+   "description": "UNII codes of ingredients, '; '-joined."
+  },
+  {
+   "name": "rxcui",
+   "description": "RxNorm concept ids, '; '-joined."
+  }
+ ]
+}

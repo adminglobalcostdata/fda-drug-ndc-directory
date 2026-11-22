@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the original source."
+title: "FDA Drug NDC Directory: 138,262 US drug products"
+type: dataset
+authors:
+  - family-names: "Bousquet"
+    given-names: "Henri"
+abstract: "Search 138,262 US drug products from the FDA National Drug Code (NDC) Directory via openFDA: brand and generic name, labeler, dosage form, route, marketing category, DEA schedule, active ingredients with strength, pharmacologic class, UNII and RxCUI. Embedded data, no scraping, pay per record."
+url: "https://apify.com/phonic_lily/fda-drug-ndc-directory"
+repository-code: "https://github.com/adminglobalcostdata/fda-drug-ndc-directory"
+date-released: 2026-11-22
+keywords:
+  - open-data
+  - dataset
+  - json
+  - jsonl
+  - apify
+  - apify-actor
+  - data-api
+  - fda
